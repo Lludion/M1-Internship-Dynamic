@@ -16,10 +16,8 @@ Factory floors with the on the fly changeable machines layout was demonstrated r
     Implementation of this framework is based on the recent progress achieved both at the research group at LTU and globally, in particular on the methods for plant model learning [2],  tool-chains for the automatic formal model generation [3] and combined use of explicit state and symbolic model-checkers for extending the range of verifiable systems [4]. For the latter, the Verification Director will generate models in the input format of a particular discrete-state and hybrid model-checkers and will invoke them dependent on properties of a particular model and expectations of model-checking complexity of a particular method, leveraging the fact that these methods may have substantially different complexities.
 For the online verification, safety supervisors will be generated and automatically added to the executable specification of CPS in form of IEC 61499 function blocks. The synthesis will be done based on the set of safety requirements and constraints, and the multi-closed loop model of the CPS, provided by the Verification Director. 
 
-Fig.1. Dynamic CPS verification framework.
-
 ## Task for the student
-The work in this task will include the integration of software tools for requirements management, formal modeling and verification into a targeted tool-chain, capable of extending the standard testing methods with capabilities of checking and proving correct behavior of Cyber-Physical Systems (CPS). 
+The work in this task will include the integration of software tools for requirements management, formal modeling and verification into a targeted tool-chain, capable of extending the standard testing methods with capabilities of checking and proving correct behavior of Cyber-Physical Systems (CPS), that will typically be encoded into IEC 61499 function blocks (FB) 
 The task will include some of the following development subtasks (and learning tools supporting the other steps): 
 -Develop a generator of formal models from the system-level descriptions of CPS; 
 -Develop a framework for the synthesis of safety supervisors; 
@@ -33,6 +31,3 @@ The verification tool will be integrated into the development environments 4DIAC
 [2]Buzhinsky, I. and Vyatkin, V., 2017. Automatic inference of finite-state plant models from traces and temporal properties. IEEE Transactions on Industrial Informatics, 13(4), pp.1521-1530
 [3]D. Drozdov, S. Patil, V. Vyatkin, “Towards Formal Verification for Cyber-physically Agnostic Software: a Case Study”, International Annual Conference of IEEE Industrial Electronics Society IECON’17, Beijing, 2017
 [4]I. Buzhinsky, V. Vyatkin, “Explicit-State and Symbolic Model Checking of Nuclear I&C Systems: A Comparison”, 43rd International Annual Conference of IEEE Industrial Electronics Society IECON’17, Beijing, 2017
-
-
-
